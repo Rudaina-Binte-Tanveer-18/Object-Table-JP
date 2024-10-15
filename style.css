@@ -1,0 +1,99 @@
+:root {
+    --darkBlue: #1d1a39;
+    --darkPurple: #451952;
+    --burgundy: #652549;
+    --pink: #ae445a;
+    --yellow: #f39f5a;
+    --lightPink: #e8bcb9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--lightPink);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    margin: 50px;
+    color: var(--darkPurple);
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: #ae445957;
+    color: var(--darkBlue);
+    border: 2px solid var(--darkPurple);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: var(--darkBlue);
+}
+
+.buttons {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: var(--darkBlue);
+    background-color: var(--yellow);
+    border: 2px solid var(--darkPurple);
+}
+
+.buttons:hover {
+    transition: all 0.5s ease;
+    background-color: var(--darkPurple);
+    color: white;
+}
+
+#delOne {
+    color: white;
+    font-weight: 900;
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#edit {
+    font-weight: 900;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    border: 3px solid black;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+th {
+    font-size: 20px;
+    padding: 5px;
+    background-color: var(--burgundy);
+    border: 2px solid var(--darkPurple);
+}
+
+td {
+    padding: 5px;
+    background-color: var(--pink);
+    border: 2px solid var(--darkPurple);
+    font-size: 1em;
+}
